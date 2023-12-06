@@ -1,0 +1,139 @@
+@import "base/variables";
+@import "mixins/mixins";
+@import "modules/host";
+
+@import "./base/light-mode";
+
+@media (prefers-color-scheme: dark) {
+    @import "./base/dark-mode";
+}
+
+body {
+    padding: 1vw;
+    background: transparent;
+}
+
+.main {
+    position: relative;
+    padding: 8vw 3vw;
+
+    .footer {
+        letter-spacing: 3vw;
+    }
+
+    &-version {
+        position: absolute;
+        bottom: 0;
+        right: 7px;
+        font-size: 5vw;
+    }
+
+    &-popup {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5vw;
+        box-shadow: 0 0px 5vw 0 rgba(0,0,0,.2);
+
+        &__logo {
+            width: 11vw;
+            height: 11vw;
+
+            &.adguard-assistant-button-main-logo {
+                background-image: url("./img/logo.svg");
+                background-repeat: no-repeat;
+            }
+        }
+
+        &__title {
+            font-size: 6vw;
+            margin: 3vw 0;
+        }
+
+        &__content {
+            font-size: 5vw;
+            padding: 0 3vw;
+            margin-bottom: 5vw;
+            border-top: none;
+        }
+
+        &__btn {
+            font-size: 5vw;
+            padding: 2vh 8vw;
+            border-radius: 3px;
+            letter-spacing: normal;
+
+            &--green {
+                color: #ffffff;
+                border: 1px solid #66B574;
+                background-color: #66B574;
+                box-shadow: none;
+
+                &:hover {
+                    background-color: #5ea76b;
+                    color: #fff;
+                }
+            }
+
+            &:focus {
+                box-shadow: none;
+            }
+        }
+    }
+
+    &-menu {
+        margin: 4vw;
+        padding: 4vw;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 4vw;
+        box-shadow: 0 0 4vw -2px rgba(0,0,0,.3);
+
+        &__info {
+            width: 100%;
+            text-align: center;
+        }
+
+        &__btn {
+            border: 0;
+            font-size: 0;
+            width: 12vw;
+            height: 12vw;
+            border-radius: 2vw;
+            background-repeat: no-repeat;
+            background-position: 50%;
+            background-size: 100%;
+            position: relative;
+
+            &:disabled {
+                opacity: 0.5;
+                pointer-events: none;
+            }
+
+            &--accept {
+                background-image: url('./img/check.svg');
+            }
+
+            &--preview {
+                background-image: url('./img/eye-opened.svg');
+
+                &:active, &.active {
+                    background-image: url('./img/eye-closed.svg');
+                }
+            }
+
+            &--plus {
+                background-image: url('./img/plus.svg');
+            }
+
+            &--minus {
+                background-image: url('./img/minus.svg');
+            }
+
+            &--close {
+                background-image: url('./img/cross.svg');
+            }
+        }
+    }
+}

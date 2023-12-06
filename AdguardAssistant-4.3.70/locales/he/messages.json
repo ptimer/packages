@@ -1,0 +1,133 @@
+{
+    "settings_position_save": "אתרים",
+    "settings_position_save_all": "כל האתרים",
+    "settings_position_save_this": "האתר הזה",
+    "assistant_select_element_start": "התחל",
+    "assistant_select_element_text": ".בחר אלמנט בדף לחסימה .רענן את הדף כדי לבטל את מצב חסימת האלמנטים",
+    "menu_filtration_status": {
+        "message": "סינון באתר זה"
+    },
+    "menu_do_not_filter_30_sec": {
+        "message": "אל תסנן למשך 30 שניות"
+    },
+    "menu_block_ad_on_site": {
+        "message": "חסום פרסומת באתר זה"
+    },
+    "menu_report_abuse": {
+        "message": "דווח על האתר"
+    },
+    "menu_site_report": {
+        "message": "דוח אבטחת אתר"
+    },
+    "menu_settings": {
+        "message": "הגדרות המסייע"
+    },
+    "menu_wot_reputation_indicator": {
+        "message": "מד של מוניטין אתרים"
+    },
+    "menu_wot_reputation_confidence_level": {
+        "message": "רמת אמון מוניטין"
+    },
+    "assistant_select_element": {
+        "message": "חסימת אלמנט"
+    },
+    "assistant_select_element_ext": {
+        "message": "בחר אלמנט בדף לחסימה"
+    },
+    "assistant_select_element_cancel": {
+        "message": "בטל"
+    },
+    "assistant_block_element": {
+        "message": "חסימת אלמנט"
+    },
+    "assistant_block_element_explain": {
+        "message": "התאם כלל של חסימת אלמנט"
+    },
+    "assistant_slider_explain": {
+        "message": "הזז את המַחְלֵק כדי לשנות את גודל המסגרת שבה הכלל החדש יעבוד:"
+    },
+    "assistant_extended_settings": {
+        "message": "הגדרות מתקדמות"
+    },
+    "assistant_apply_rule_to_all_sites": {
+        "message": "החל את הכלל בכל האתרים"
+    },
+    "assistant_block_by_reference": {
+        "message": "חסום לפי קישור הפניה"
+    },
+    "assistant_block_similar": {
+        "message": "חסום דומה"
+    },
+    "assistant_another_element": {
+        "message": "בחר אלמנט אחר"
+    },
+    "assistant_preview": {
+        "message": "הצג מראש"
+    },
+    "assistant_block": {
+        "message": "חסום"
+    },
+    "assistant_settings": {
+        "message": "הגדרות המסייע"
+    },
+    "assistant_preview_header": {
+        "message": "חסימת אלמנט - תצוגה מקדימה"
+    },
+    "assistant_preview_header_info": {
+        "message": "ודא כי אלמנט זה חסום כמתוכנן"
+    },
+    "assistant_preview_end": {
+        "message": "צא מתצוגה מקדימה"
+    },
+    "wot_unknown_description": {
+        "message": "המוניטין של אתר זה אינו מוגדר על ידי $1"
+    },
+    "wot_bad_description": {
+        "message": "לאתר זה יש מוניטין רע מאוד\nעל פי $1"
+    },
+    "wot_poor_description": {
+        "message": "לאתר זה יש מוניטין רע \nעל פי $1"
+    },
+    "wot_unsatisfactory_description": {
+        "message": "לאתר זה יש מוניטין ירוד\nעל פי $1"
+    },
+    "wot_good_description": {
+        "message": "לאתר זה יש מוניטין טוב\nעל פי $1"
+    },
+    "wot_excellent_description": {
+        "message": "לאתר זה יש מוניטין מצויין\nעל פי $1"
+    },
+    "settings_choose_size_and_position": {
+        "message": "התאם גודל ומיקום של מסייע AdGuard"
+    },
+    "settings_icon_size": {
+        "message": "גודל איקון:"
+    },
+    "settings_small": {
+        "message": "קטן"
+    },
+    "settings_big": {
+        "message": "גדול"
+    },
+    "settings_position": {
+        "message": "מיקום:"
+    },
+    "settings_left_top": {
+        "message": "בחלק העליון משמאל"
+    },
+    "settings_right_top": {
+        "message": "בחלק העליון מימין"
+    },
+    "settings_left_bottom": {
+        "message": "צד שמאל למטה"
+    },
+    "settings_right_bottom": {
+        "message": "צד ימין למטה"
+    },
+    "settings_cancel": {
+        "message": "בטל"
+    },
+    "settings_save": {
+        "message": "שמור שינויים"
+    }
+}

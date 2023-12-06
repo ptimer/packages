@@ -1,0 +1,14 @@
+.DS_Store
+.env
+.idea/
+.vscode/
+*.iml
+yarn-error.log
+node_modules
+private
+/tmp
+output.md
+tests/dist
+browserstack.err
+local.log
+.eslintcache

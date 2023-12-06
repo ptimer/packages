@@ -1,0 +1,58 @@
+name: Deploy ExtendedCSS to GitHub Pages
+
+on:
+  push:
+    tags:
+      - v*
+
+jobs:
+  deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+
+      - name: yarn install
+        run: yarn install
+
+      - name: yarn build
+        run: yarn build
+
+      - name: yarn test local
+        run: yarn test local
+
+      - name: deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          folder: dist
+          branch: gh-pages
+          clean: true
+
+  notify:
+    needs:
+      - deploy
+    if:
+      ${{ always() &&
+        (
+          github.event.pull_request.head.repo.full_name == github.repository
+        )
+      }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Conclusion
+        uses: technote-space/workflow-conclusion-action@v3
+
+      - name: Send Slack notification
+        uses: 8398a7/action-slack@v3
+        with:
+          status: ${{ env.WORKFLOW_CONCLUSION }}
+          fields: workflow, repo, message, commit, author, eventName, ref
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}

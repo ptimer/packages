@@ -1,0 +1,20 @@
+// modules
+
+
+
+@base-offset: 20px;
+@mobile-base-offset: 10px 0 25px;
+
+@import "sprite";
+@import "tooltip";
+@import "layout";
+@import "element-rule";
+@import "settings";
+@import "wot";
+@import "menu";
+
+@import "../base/light-mode";
+
+@media (prefers-color-scheme: dark) {
+  @import "../base/dark-mode";
+}

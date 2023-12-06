@@ -1,0 +1,49 @@
+[
+    {
+        "project_id": "adguard-assistant",
+        "base_locale": "en",
+        "languages": {
+            "en": "English",
+            "ar": "Arabic",
+            "be": "Belarusian",
+            "cs": "Czech",
+            "da": "Danish",
+            "de": "German",
+            "el": "Greek",
+            "es": "Spanish",
+            "fa": "Persian",
+            "fi": "Finnish",
+            "fr": "French",
+            "he": "Hebrew",
+            "hu": "Hungarian",
+            "id": "Indonesian",
+            "it": "Italian",
+            "ja": "Japanese",
+            "ko": "Korean",
+            "lt": "Lithuanian",
+            "no": "Norwegian",
+            "nl": "Dutch",
+            "pl": "Polish",
+            "pt-BR": "Portuguese (Brazil)",
+            "pt-PT": "Portuguese",
+            "ro": "Romanian",
+            "ru": "Russian",
+            "sk": "Slovak",
+            "sl": "Slovenian",
+            "sr": "Serbian (latin)",
+            "sv": "Swedish",
+            "tr": "Turkish",
+            "uk": "Ukrainian",
+            "vi": "Vietnamese",
+            "zh-CN": "Chinese Simplified (mainland China)",
+            "zh-HK": "Chinese Traditional (Hong Kong)",
+            "zh-TW": "Chinese Traditional (Taiwan)",
+            "hi": "Hindi",
+            "hr": "Croatian"
+        },
+        "localizable_files": [
+            "locales/en/messages.json",
+            "locales/en/messages.meta.json"
+        ]
+    }
+]

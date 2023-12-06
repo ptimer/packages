@@ -1,0 +1,528 @@
+{
+    "scriptlets": [
+        {
+            "adg": "abort-current-inline-script",
+            "ubo": "abort-current-script.js (acs.js, abort-current-inline-script.js, acis.js)",
+            "abp": "abort-current-inline-script"
+        },
+        {
+            "adg": "abort-on-property-read",
+            "ubo": "abort-on-property-read.js (aopr.js)",
+            "abp": "abort-on-property-read"
+        },
+        {
+            "adg": "abort-on-property-write",
+            "ubo": "abort-on-property-write.js (aopw.js)",
+            "abp": "abort-on-property-write"
+        },
+        {
+            "adg": "abort-on-stack-trace",
+            "ubo": "abort-on-stack-trace.js (aost.js)"
+        },
+        {
+            "adg": "adjust-setInterval",
+            "ubo": "adjust-setInterval.js (nano-setInterval-booster.js, nano-sib.js)"
+        },
+        {
+            "adg": "adjust-setTimeout",
+            "ubo": "adjust-setTimeout.js (nano-setTimeout-booster.js, nano-stb.js)"
+        },
+        {
+            "adg": "close-window",
+            "ubo": "close-window.js (window-close-if.js)"
+        },
+        {
+            "adg": "debug-current-inline-script"
+        },
+        {
+            "adg": "debug-on-property-read"
+        },
+        {
+            "adg": "debug-on-property-write"
+        },
+        {
+            "adg": "dir-string"
+        },
+        {
+            "adg": "disable-newtab-links",
+            "ubo": "disable-newtab-links.js"
+        },
+        {
+            "adg": "evaldata-prune",
+            "ubo": "evaldata-prune.js"
+        },
+        {
+            "adg": "json-prune",
+            "ubo": "json-prune.js",
+            "abp": "json-prune"
+        },
+        {
+            "adg": "log",
+            "abp": "log"
+        },
+        {
+            "adg": "log-addEventListener",
+            "ubo": "addEventListener-logger.js (aell.js) (removed)"
+        },
+        {
+            "adg": "log-eval"
+        },
+        {
+            "adg": "log-on-stack-trace"
+        },
+        {
+            "adg": "m3u-prune",
+            "ubo": "m3u-prune.js"
+        },
+        {
+            "adg": "noeval"
+        },
+        {
+            "adg": "nowebrtc",
+            "ubo": "nowebrtc.js"
+        },
+        {
+            "adg": "no-topics"
+        },
+        {
+            "adg": "prevent-addEventListener",
+            "ubo": "addEventListener-defuser.js (aeld.js, prevent-addEventListener.js)",
+            "abp": "prevent-listener"
+        },
+        {
+            "adg": "prevent-adfly",
+            "ubo": "adfly-defuser.js (removed)"
+        },
+        {
+            "adg": "prevent-bab"
+        },
+        {
+            "adg": "prevent-eval-if",
+            "ubo": "noeval-if.js (prevent-eval-if.js)"
+        },
+        {
+            "adg": "prevent-fab-3.2.0"
+        },
+        {
+            "adg": "prevent-fetch",
+            "ubo": "no-fetch-if.js (prevent-fetch.js)"
+        },
+        {
+            "adg": "prevent-xhr",
+            "ubo": "no-xhr-if.js (prevent-xhr.js)"
+        },
+        {
+            "adg": "prevent-popads-net"
+        },
+        {
+            "adg": "prevent-refresh",
+            "ubo": "prevent-refresh.js (refresh-defuser.js)"
+        },
+        {
+            "adg": "prevent-requestAnimationFrame",
+            "ubo": "no-requestAnimationFrame-if.js (norafif.js, prevent-requestAnimationFrame.js)"
+        },
+        {
+            "adg": "prevent-setInterval",
+            "ubo": "no-setInterval-if.js (nosiif.js, prevent-setInterval.js, setInterval-defuser.js)"
+        },
+        {
+            "adg": "prevent-setTimeout",
+            "ubo": "no-setTimeout-if.js (nostif.js, prevent-setTimeout.js, setTimeout-defuser.js)"
+        },
+        {
+            "adg": "prevent-window-open",
+            "ubo": "no-window-open-if.js (nowoif.js, prevent-window-open.js, window.open-defuser.js)"
+        },
+        {
+            "adg": "remove-attr",
+            "ubo": "remove-attr.js (ra.js)"
+        },
+        {
+            "adg": "remove-class",
+            "ubo": "remove-class.js (rc.js)"
+        },
+        {
+            "adg": "remove-cookie",
+            "ubo": "remove-cookie.js (cookie-remover.js)",
+            "abp": "cookie-remover"
+        },
+        {
+            "adg": "remove-node-text",
+            "ubo": "remove-node-text.js (rmnt.js)"
+        },
+        {
+            "adg": "set-attr",
+            "ubo": "set-attr.js"
+        },
+        {
+            "adg": "set-constant",
+            "ubo": "set-constant.js (set.js)",
+            "abp": "override-property-read"
+        },
+        {
+            "adg": "set-cookie",
+            "ubo": "set-cookie.js"
+        },
+        {
+            "adg": "set-cookie-reload"
+        },
+        {
+            "adg": "set-local-storage-item",
+            "ubo": "set-local-storage-item.js"
+        },
+        {
+            "adg": "set-popads-dummy"
+        },
+        {
+            "adg": "set-session-storage-item",
+            "ubo": "set-session-storage-item.js"
+        },
+        {
+            "adg": "xml-prune",
+            "ubo": "xml-prune.js"
+        },
+        {
+            "ubo": "webrtc-if.js"
+        },
+        {
+            "ubo": "overlay-buster.js"
+        },
+        {
+            "ubo": "alert-buster.js"
+        },
+        {
+            "ubo": "golem.de.js"
+        },
+        {
+            "ubo": "href-sanitizer.js"
+        },
+        {
+            "ubo": "call-nothrow.js"
+        },
+        {
+            "abp": "abort-on-iframe-property-read"
+        },
+        {
+            "abp": "abort-on-iframe-property-write"
+        },
+        {
+            "abp": "freeze-element"
+        },
+        {
+            "abp": "json-override"
+        },
+        {
+            "abp": "simulate-mouse-event"
+        },
+        {
+            "abp": "strip-fetch-query-parameter"
+        },
+        {
+            "abp": "hide-if-contains"
+        },
+        {
+            "abp": "hide-if-contains-image"
+        },
+        {
+            "abp": "hide-if-contains-image-hash"
+        },
+        {
+            "abp": "hide-if-contains-similar-text"
+        },
+        {
+            "abp": "hide-if-contains-visible-text"
+        },
+        {
+            "abp": "hide-if-contains-and-matches-style"
+        },
+        {
+            "abp": "hide-if-graph-matches"
+        },
+        {
+            "abp": "hide-if-has-and-matches-style"
+        },
+        {
+            "abp": "hide-if-labelled-by"
+        },
+        {
+            "abp": "hide-if-matches-xpath"
+        },
+        {
+            "abp": "hide-if-matches-computed-xpath"
+        },
+        {
+            "abp": "hide-if-shadow-contains"
+        },
+        {
+            "abp": "debug"
+        },
+        {
+            "abp": "trace"
+        },
+        {
+            "abp": "race"
+        },
+        {
+            "ubo": "window.name-defuser.js"
+        },
+        {
+            "ubo": "spoof-css.js"
+        },
+        {
+            "ubo": "trusted-set-constant.js (trusted-set.js)"
+        },
+        {
+            "ubo": "trusted-set-cookie.js"
+        },
+        {
+            "ubo": "trusted-set-local-storage-item.js"
+        },
+        {
+            "ubo": "trusted-replace-fetch-response.js"
+        },
+        {
+            "ubo": "json-prune-fetch-response.js"
+        },
+        {
+            "ubo": "json-prune-xhr-response.js"
+        },
+        {
+            "ubo": "trusted-replace-xhr-response.js"
+        },
+        {
+            "ubo": "multiup.js"
+        },
+        {
+            "ubo": "prevent-canvas.js"
+        },
+        {
+            "ubo": "set-cookie-reload.js"
+        },
+        {
+            "ubo": "trusted-set-cookie-reload.js"
+        },
+        {
+            "ubo": "trusted-click-element.js"
+        },
+        {
+            "ubo": "trusted-prune-inbound-object.js"
+        },
+        {
+            "ubo": "trusted-prune-outbound-object.js"
+        },
+        {
+            "ubo": "trusted-set-session-storage-item.js"
+        },
+        {
+            "ubo": "trusted-replace-node-text.js (trusted-rpnt.js, replace-node-text.js, rpnt.js)"
+        }
+    ],
+    "redirects": [
+        {
+            "adg": "1x1-transparent.gif",
+            "ubo": "1x1.gif",
+            "abp": "1x1-transparent-gif"
+        },
+        {
+            "adg": "2x2-transparent.png",
+            "ubo": "2x2.png",
+            "abp": "2x2-transparent-png"
+        },
+        {
+            "adg": "3x2-transparent.png",
+            "ubo": "3x2.png",
+            "abp": "3x2-transparent-png"
+        },
+        {
+            "adg": "32x32-transparent.png",
+            "ubo": "32x32.png",
+            "abp": "32x32-transparent-png"
+        },
+        {
+            "adg": "amazon-apstag",
+            "ubo": "amazon_apstag.js"
+        },
+        {
+            "adg": "ati-smarttag"
+        },
+        {
+            "adg": "click2load.html",
+            "ubo": "click2load.html"
+        },
+        {
+            "adg": "fingerprintjs2",
+            "ubo": "fingerprint2.js"
+        },
+        {
+            "adg": "fingerprint3js",
+            "ubo": "fingerprint3.js"
+        },
+        {
+            "adg": "google-analytics",
+            "ubo": "google-analytics_analytics.js"
+        },
+        {
+            "adg": "google-analytics-ga",
+            "ubo": "google-analytics_ga.js"
+        },
+        {
+            "adg": "google-ima3",
+            "ubo": "google-ima.js"
+        },
+        {
+            "adg": "googlesyndication-adsbygoogle",
+            "ubo": "googlesyndication_adsbygoogle.js"
+        },
+        {
+            "adg": "googletagservices-gpt",
+            "ubo": "googletagservices_gpt.js"
+        },
+        {
+            "adg": "gemius"
+        },
+        {
+            "adg": "matomo"
+        },
+        {
+            "adg": "metrika-yandex-watch"
+        },
+        {
+            "adg": "metrika-yandex-tag"
+        },
+        {
+            "adg": "naver-wcslog"
+        },
+        {
+            "adg": "noeval",
+            "ubo": "noeval-silent.js"
+        },
+        {
+            "adg": "noopcss",
+            "ubo": "noop.css",
+            "abp": "blank-css"
+        },
+        {
+            "adg": "noopframe",
+            "ubo": "noop.html",
+            "abp": "blank-html"
+        },
+        {
+            "adg": "noopjs",
+            "ubo": "noop.js",
+            "abp": "blank-js"
+        },
+        {
+            "adg": "noopjson",
+            "ubo": "noop.json"
+        },
+        {
+            "adg": "nooptext",
+            "ubo": "noop.txt",
+            "abp": "blank-text"
+        },
+        {
+            "adg": "noopmp3-0.1s",
+            "ubo": "noop-0.1s.mp3",
+            "abp": "blank-mp3"
+        },
+        {
+            "adg": "noopmp4-1s",
+            "ubo": "noop-1s.mp4",
+            "abp": "blank-mp4"
+        },
+        {
+            "adg": "noopvmap-1.0",
+            "ubo": "noop-vmap1.0.xml"
+        },
+        {
+            "adg": "noopvast-2.0"
+        },
+        {
+            "adg": "noopvast-3.0"
+        },
+        {
+            "adg": "pardot-1.0"
+        },
+        {
+            "adg": "noopvast-4.0"
+        },
+        {
+            "adg": "prebid-ads",
+            "ubo": "prebid-ads.js"
+        },
+        {
+            "adg": "prevent-bab",
+            "ubo": "nobab.js"
+        },
+        {
+            "adg": "prevent-bab2",
+            "ubo": "nobab2.js"
+        },
+        {
+            "adg": "prevent-fab-3.2.0",
+            "ubo": "nofab.js"
+        },
+        {
+            "adg": "prevent-popads-net",
+            "ubo": "popads.js"
+        },
+        {
+            "adg": "scorecardresearch-beacon",
+            "ubo": "scorecardresearch_beacon.js"
+        },
+        {
+            "adg": "set-popads-dummy",
+            "ubo": "popads-dummy.js"
+        },
+        {
+            "ubo": "addthis_widget.js"
+        },
+        {
+            "ubo": "amazon_ads.js"
+        },
+        {
+            "ubo": "ampproject_v0.js"
+        },
+        {
+            "ubo": "chartbeat.js"
+        },
+        {
+            "ubo": "doubleclick_instream_ad_status.js"
+        },
+        {
+            "adg": "empty",
+            "ubo": "empty"
+        },
+        {
+            "ubo": "google-analytics_cx_api.js"
+        },
+        {
+            "ubo": "google-analytics_inpage_linkid.js"
+        },
+        {
+            "ubo": "hd-main.js"
+        },
+        {
+            "ubo": "ligatus_angular-tag.js"
+        },
+        {
+            "ubo": "monkeybroker.js"
+        },
+        {
+            "ubo": "outbrain-widget.js"
+        },
+        {
+            "ubo": "window.open-defuser.js (removed)"
+        },
+        {
+            "ubo": "noeval.js"
+        },
+        {
+            "ubo": "mxpnl_mixpanel.js"
+        },
+        {
+            "ubo": "noop-0.5s.mp3"
+        }
+    ]
+}

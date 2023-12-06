@@ -1,0 +1,108 @@
+<div class="main">
+    <div class="close"></div>
+
+    <div class="head">
+        <div i18n="assistant_settings" class="head_title"></div>
+        <div i18n="settings_choose_size_and_position" class="head_text head_text--mobile-h"></div>
+    </div>
+
+    <div class="content">
+        <div class="settings settings__horizontal">
+            <div class="settings_fieldset">
+                <div i18n="settings_position_save" class="settings_fieldset_lbl"></div>
+                <div class="settings_fieldset_val">
+                    <div class="position-save">
+                        <div class="position-save_group">
+                            <div class="position-save_field">
+                                <input class="form-ui-control" id="all-site" type="radio" name="position-save">
+                                <label class="form-ui" for="all-site">
+                                    <span i18n="settings_position_save_all" class="form-ui-txt"></span>
+                                </label>
+                            </div>
+                            <div class="position-save_field">
+                                <input class="form-ui-control" id="this-site" type="radio" name="position-save">
+                                <label class="form-ui" for="this-site">
+                                    <span i18n="settings_position_save_this" class="form-ui-txt"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="settings_fieldset">
+                <div i18n="settings_icon_size" class="settings_fieldset_lbl"></div>
+                <div class="settings_fieldset_val">
+                    <div class="choice-size">
+                        <div class="choice-size_group">
+                            <div class="choice-size_field">
+                                <input class="choice-size_input form-ui-control" id="size-small" type="radio" name="radio">
+                                <label class="form-ui" for="size-small">
+                                    <span i18n="settings_small" class="form-ui-txt"></span>
+                                </label>
+                                <div class="adguard-assistant-button-main-logo choice-size_logo logo__small"></div>
+                            </div>
+                            <div class="choice-size_field">
+                                <input class="choice-size_input form-ui-control" id="size-big" type="radio" name="radio">
+                                <label class="form-ui" for="size-big">
+                                    <span i18n="settings_big" class="form-ui-txt"></span>
+                                </label>
+                                <div class="adguard-assistant-button-main-logo choice-size_logo"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="settings_fieldset">
+                <div i18n="settings_position" class="settings_fieldset_lbl settings_fieldset_lbl__pos"></div>
+                <div class="settings_fieldset_val">
+                    <div class="change-position">
+                        <div class="change-position_i">
+                            <input type="radio" name="position" class="change-position_input" id="position-top-left">
+                            <label class="change-position_label" for="position-top-left">
+                                <span class="s-position-arr-top-left"></span>
+                            </label>
+
+                            <div i18n="settings_left_top" class="change-position_val"></div>
+                        </div>
+                        <div class="change-position_i">
+                            <input type="radio" name="position" class="change-position_input" id="position-top-right">
+                            <label class="change-position_label" for="position-top-right">
+                                <span class="s-position-arr-top-right"></span>
+                            </label>
+
+                            <div i18n="settings_right_top" class="change-position_val"></div>
+                        </div>
+                        <div class="change-position_i">
+                            <input type="radio" name="position" class="change-position_input" id="position-bottom-left">
+                            <label class="change-position_label" for="position-bottom-left">
+                                <span class="s-position-arr-bottom-left"></span>
+                            </label>
+
+                            <div i18n="settings_left_bottom" class="change-position_val"></div>
+                        </div>
+                        <div class="change-position_i">
+                            <input type="radio" name="position" class="change-position_input"
+                                   id="position-bottom-right">
+                            <label class="change-position_label" for="position-bottom-right">
+                                <span class="s-position-arr-bottom-right"></span>
+                            </label>
+
+                            <div i18n="settings_right_bottom" class="change-position_val"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="foot">
+        <div class="foot_action">
+            <div class="foot_action_btn">
+                <button i18n="settings_cancel" class="btn btn-default" type="button" id="cancel"></button>
+                <button i18n="settings_save" class="btn btn-primary" type="button" id="save-settings"></button>
+            </div>
+        </div>
+        <div class="cf"></div>
+    </div>
+</div>

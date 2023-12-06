@@ -1,0 +1,78 @@
+---
+version: 2
+plan:
+  project-key: AJL
+  key: SCRIPTLETSTEST
+  name: scriptlets - test new
+variables:
+  dockerPuppeteer: adguard/puppeteer-runner:18.2--1
+
+stages:
+  - Build:
+      manual: 'false'
+      final: 'false'
+      jobs:
+        - Build
+
+Build:
+  key: BUILD
+  docker:
+    image: "${bamboo.dockerPuppeteer}"
+    volumes:
+      ${system.YARN_DIR}: "${bamboo.cacheYarn}"
+  tasks:
+    - checkout:
+        force-clean-build: 'true'
+    - script:
+        interpreter: SHELL
+        scripts:
+          - |-
+            set -e
+            set -x
+            ls -alt
+
+            yarn install
+
+            # build docs to lint them later
+            # 1. check compatibility table updates and build it
+            yarn wiki:build-table
+            # 2. build other wiki docs
+            yarn wiki:build-docs
+
+            yarn test
+            yarn build
+
+            # lint code and docs. it should be run after yarn build
+            yarn lint
+
+            rm -rf node_modules
+  artifacts:
+    - name: scriptlets.corelibs.json
+      location: dist
+      pattern: scriptlets.corelibs.json
+      required: true
+    - name: redirects.json
+      location: dist
+      pattern: redirects.json
+      required: true
+  requirements:
+    - adg-docker: 'true'
+
+branches:
+  create: for-pull-request
+  delete:
+    after-deleted-days: '1'
+    after-inactive-days: '5'
+  link-to-jira: 'true'
+
+notifications:
+  - events:
+      - plan-status-changed
+    recipients:
+      - webhook:
+          name: Build webhook
+          url: http://prod.jirahub.service.eu.consul/v1/webhook/bamboo
+
+labels: [ ]
+other:
+  concurrent-build-plugin: system-default

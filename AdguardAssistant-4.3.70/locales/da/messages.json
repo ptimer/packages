@@ -1,0 +1,133 @@
+{
+    "settings_position_save": "Websteder",
+    "settings_position_save_all": "Alle websteder",
+    "settings_position_save_this": "Dette websted",
+    "assistant_select_element_start": "Start",
+    "assistant_select_element_text": "Vælg et element på denne side, der skal blokeres. Opfrisk siden for at afbryde elementblokeringstilstanden.",
+    "menu_filtration_status": {
+        "message": "Filtrering på dette websted"
+    },
+    "menu_do_not_filter_30_sec": {
+        "message": "Filtrér ikke i 30 sekunder"
+    },
+    "menu_block_ad_on_site": {
+        "message": "Blokér annoncer på dette websted"
+    },
+    "menu_report_abuse": {
+        "message": "Anmeld dette websted"
+    },
+    "menu_site_report": {
+        "message": "Webstedssikkerhedsrapport"
+    },
+    "menu_settings": {
+        "message": "Assistent-indstillinger"
+    },
+    "menu_wot_reputation_indicator": {
+        "message": "Webstedsomdømmeindikator"
+    },
+    "menu_wot_reputation_confidence_level": {
+        "message": "Omdømmetillidsniveau"
+    },
+    "assistant_select_element": {
+        "message": "Elementblokering"
+    },
+    "assistant_select_element_ext": {
+        "message": "Vælg et element på siden, der skal blokeres"
+    },
+    "assistant_select_element_cancel": {
+        "message": "Afbryd"
+    },
+    "assistant_block_element": {
+        "message": "Elementblokering"
+    },
+    "assistant_block_element_explain": {
+        "message": "Justér regel for elementblokering"
+    },
+    "assistant_slider_explain": {
+        "message": "Flyt skyderen for at ændre størrelsen på den ramme, den nye regel vil fungere for:"
+    },
+    "assistant_extended_settings": {
+        "message": "Avancerede indstillinger"
+    },
+    "assistant_apply_rule_to_all_sites": {
+        "message": "Anvend reglen på alle websteder"
+    },
+    "assistant_block_by_reference": {
+        "message": "Blokér efter referencelink"
+    },
+    "assistant_block_similar": {
+        "message": "Blokér lignende"
+    },
+    "assistant_another_element": {
+        "message": "Vælg et andet element"
+    },
+    "assistant_preview": {
+        "message": "Forhåndsvisning"
+    },
+    "assistant_block": {
+        "message": "Blokér"
+    },
+    "assistant_settings": {
+        "message": "Assistent-indstillinger"
+    },
+    "assistant_preview_header": {
+        "message": "Elementblokering - forhåndsvisning"
+    },
+    "assistant_preview_header_info": {
+        "message": "Sørg for, at elementet er blokeret som tilsigtet"
+    },
+    "assistant_preview_end": {
+        "message": "Afslut forhåndsvisning"
+    },
+    "wot_unknown_description": {
+        "message": "Dette websteds omdømme er ikke defineret af $1"
+    },
+    "wot_bad_description": {
+        "message": "Dette websted har et meget dårligt omdømme jf. $1"
+    },
+    "wot_poor_description": {
+        "message": "Dette websted har et dårligt omdømme jf. $1"
+    },
+    "wot_unsatisfactory_description": {
+        "message": "Dette websted har et ringe omdømme jf. $1"
+    },
+    "wot_good_description": {
+        "message": "Dette websted har et godt omdømme jf. $1"
+    },
+    "wot_excellent_description": {
+        "message": "Dette websted har et fremragende omdømme \njf. $1"
+    },
+    "settings_choose_size_and_position": {
+        "message": "Justér størrelse og position for AdGuard Assistent"
+    },
+    "settings_icon_size": {
+        "message": "Ikonstørrelse:"
+    },
+    "settings_small": {
+        "message": "Lille"
+    },
+    "settings_big": {
+        "message": "Stor"
+    },
+    "settings_position": {
+        "message": "Position:"
+    },
+    "settings_left_top": {
+        "message": "Øverst til venstre"
+    },
+    "settings_right_top": {
+        "message": "Øverst til højre"
+    },
+    "settings_left_bottom": {
+        "message": "Nederst til venstre"
+    },
+    "settings_right_bottom": {
+        "message": "Nederst til højre"
+    },
+    "settings_cancel": {
+        "message": "Afbryd"
+    },
+    "settings_save": {
+        "message": "Gem ændringer"
+    }
+}

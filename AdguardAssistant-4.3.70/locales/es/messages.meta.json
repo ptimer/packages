@@ -1,0 +1,8 @@
+{
+    "extension": {
+        "assistant": {
+            "name": "Asistente de Adguard",
+            "description": "Permite fácilmente administrar el filtrado directamente desde el navegador"
+        }
+    }
+}
